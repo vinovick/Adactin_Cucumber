@@ -1,0 +1,673 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User want to login in the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4238102600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the application",
+            "match": {
+              "location": "Stepdefinition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 452898100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the \"vinovicky\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vinovicky",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_username_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 377392900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the \"Jan@2020\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jan@2020",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 334289300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on the login button and it navigates to the hotel search page",
+            "match": {
+              "location": "Stepdefinition.user_click_on_the_login_button_and_it_navigates_to_the_hotel_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "User want to login in the application",
+        "description": "",
+        "id": "hotel-booking-functionality;user-want-to-login-in-the-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 325743500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User launch the application",
+            "match": {
+              "location": "Stepdefinition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 231038600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter the \"AAA\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AAA",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_username_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136562800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter the \"1234\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31852100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on the login button and it navigates to the hotel search page",
+            "match": {
+              "location": "Stepdefinition.user_click_on_the_login_button_and_it_navigates_to_the_hotel_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User want to login in the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 418065700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the application",
+            "match": {
+              "location": "Stepdefinition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 232119100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the \"vinovicky\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vinovicky",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_username_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130583100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the \"Jan@2020\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jan@2020",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23346700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on the login button and it navigates to the hotel search page",
+            "match": {
+              "location": "Stepdefinition.user_click_on_the_login_button_and_it_navigates_to_the_hotel_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "User want to login in the application",
+        "description": "",
+        "id": "hotel-booking-functionality;user-want-to-login-in-the-application;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 549915700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User launch the application",
+            "match": {
+              "location": "Stepdefinition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187338700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter the \"BBB\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BBB",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_username_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104161800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter the \"56789\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "56789",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27492500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on the login button and it navigates to the hotel search page",
+            "match": {
+              "location": "Stepdefinition.user_click_on_the_login_button_and_it_navigates_to_the_hotel_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User want to login in the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 292565800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the application",
+            "match": {
+              "location": "Stepdefinition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 368514600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the \"vinovicky\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vinovicky",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_username_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142440400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the \"Jan@2020\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jan@2020",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25238700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on the login button and it navigates to the hotel search page",
+            "match": {
+              "location": "Stepdefinition.user_click_on_the_login_button_and_it_navigates_to_the_hotel_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "User want to login in the application",
+        "description": "",
+        "id": "hotel-booking-functionality;user-want-to-login-in-the-application;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 270992100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User launch the application",
+            "match": {
+              "location": "Stepdefinition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 216755100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter the \"vinovicky\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vinovicky",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_username_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137836000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter the \"Jan@2020\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jan@2020",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30904300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on the login button and it navigates to the hotel search page",
+            "match": {
+              "location": "Stepdefinition.user_click_on_the_login_button_and_it_navigates_to_the_hotel_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User want to login in the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 267757900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the application",
+            "match": {
+              "location": "Stepdefinition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 254647200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the \"vinovicky\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vinovicky",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_username_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119277800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the \"Jan@2020\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jan@2020",
+                  "offset": 16
+                }
+              ],
+              "location": "Stepdefinition.user_enter_the_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25157100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on the login button and it navigates to the hotel search page",
+            "match": {
+              "location": "Stepdefinition.user_click_on_the_login_button_and_it_navigates_to_the_hotel_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "User want to searching the hotel room",
+        "description": "",
+        "id": "hotel-booking-functionality;user-want-to-searching-the-hotel-room",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31032400,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#location\"}\n  (Session info: chrome\u003d91.0.4472.124)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-ALGKGPH\u0027, ip: \u0027192.168.1.3\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\jaisa\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e6ed3efa26c2b933e72ffb403eb2eb8f\n*** Element info: {Using\u003did, value\u003dlocation}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy21.getTagName(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.Select.\u003cinit\u003e(Select.java:45)\r\n\tat com.adactin.baseclass.BaseClass.selection(BaseClass.java:164)\r\n\tat com.adactin.stepdefiniton.Stepdefinition.user_want_to_select_the_location(Stepdefinition.java:59)\r\n\tat ✽.When User want to select the location(Adactin.feature:26)\r\n",
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "User want to select the location",
+            "match": {
+              "location": "Stepdefinition.user_want_to_select_the_location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User want to select the hotel name",
+            "match": {
+              "location": "Stepdefinition.user_want_to_select_the_hotel_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "User want to select the room type",
+            "match": {
+              "location": "Stepdefinition.user_want_to_select_the_room_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "User want to select the number of rooms",
+            "match": {
+              "location": "Stepdefinition.user_want_to_select_the_number_of_rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "User want to clear the check in Date",
+            "match": {
+              "location": "Stepdefinition.user_want_to_clear_the_check_in_Date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User want to select the check in Date",
+            "match": {
+              "location": "Stepdefinition.user_want_to_select_the_check_in_Date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User want to clear the check out Date",
+            "match": {
+              "location": "Stepdefinition.user_want_to_clear_the_check_out_Date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User want to select the check out Date",
+            "match": {
+              "location": "Stepdefinition.user_want_to_select_the_check_out_Date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "User want to select the Adults per room",
+            "match": {
+              "location": "Stepdefinition.user_want_to_select_the_Adults_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User want to selec the Children per room",
+            "match": {
+              "location": "Stepdefinition.user_want_to_selec_the_Children_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "User click the search button for verification purpose",
+            "match": {
+              "location": "Stepdefinition.user_click_the_search_button_for_verification_purpose()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Hotel Booking Functionality",
+    "description": "",
+    "id": "hotel-booking-functionality",
+    "keyword": "Feature",
+    "uri": "Adactin.feature"
+  }
+]
